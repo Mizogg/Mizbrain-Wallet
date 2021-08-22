@@ -37,3 +37,6 @@ Private Key      : b09c765fa3dc6ad138a8d0da17cd94306fbc32acb3d67bc093936861ccc48
 ![image](https://user-images.githubusercontent.com/88630056/130361518-ba0ba181-c75b-4b43-bd24-368ce5e6974f.png)
 
 
+# miz_brain_file.py
+
+Offline- Check Brain wallets offline from your database file.
