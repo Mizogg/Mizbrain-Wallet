@@ -1,0 +1,33 @@
+
+Bitcoin Address Compressed : 1HKqKTMpBTZZ8H5zcqYEWYBaaWELrDEXeE  : Total Received = 5639513
+Passphrase       : test
+Private Key      : 9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08
+ =====Made by mizogg.co.uk Donations 3M6L77jC3jNejsd5ZU1CVpUVngrhanb6cD =====
+Bitcoin Address Compressed : 16ga2uqnF1NqpAuQeeg7sTCAdtDUwDyJav  : Total Received = 35652475
+Passphrase       : password
+Private Key      : 5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8
+ =====Made by mizogg.co.uk Donations 3M6L77jC3jNejsd5ZU1CVpUVngrhanb6cD =====
+Bitcoin Address Compressed : 1HKqKTMpBTZZ8H5zcqYEWYBaaWELrDEXeE  : Total Received = 5639513
+Passphrase       : test
+Private Key      : 9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08
+ =====Made by mizogg.co.uk Donations 3M6L77jC3jNejsd5ZU1CVpUVngrhanb6cD =====
+Bitcoin Address Compressed : 16ga2uqnF1NqpAuQeeg7sTCAdtDUwDyJav  : Total Received = 35652475
+Passphrase       : password
+Private Key      : 5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8
+ =====Made by mizogg.co.uk Donations 3M6L77jC3jNejsd5ZU1CVpUVngrhanb6cD =====
+Bitcoin Address Compressed : 12NEsPS2tPhjXJHd3kGkTvQ7ECGypuxbeo  : Total Received = 26616362
+Passphrase       : youaremysunshinemyonlysunshine
+Private Key      : bcbfbc46e67a6c67b80df8a427315552396da61bed9150610a3132dbce55637b
+ =====Made by mizogg.co.uk Donations 3M6L77jC3jNejsd5ZU1CVpUVngrhanb6cD =====
+Bitcoin Address Compressed : 17ac4moXPanV5QzuXRCiBs8uzRSjeSos3h  : Total Received = 100460000
+Passphrase       : qwertyuiopasdfghjklzxcvbnm
+Private Key      : 8e5eb603482f00768b60cb17f947e273d6aa7c82ffaf8e589a06f6e841c3cef8
+ =====Made by mizogg.co.uk Donations 3M6L77jC3jNejsd5ZU1CVpUVngrhanb6cD =====
+Bitcoin Address Compressed : 1GjjGLYR7UhtM1n6z7QDpQskBicgmsHW9k  : Total Received = 50009545580
+Passphrase       : how much wood could a woodchuck chuck if a woodchuck could chuck wood
+Private Key      : b09c765fa3dc6ad138a8d0da17cd94306fbc32acb3d67bc093936861ccc48769
+ =====Made by mizogg.co.uk Donations 3M6L77jC3jNejsd5ZU1CVpUVngrhanb6cD =====
+Bitcoin Address Compressed : 1HZwkjkeaoZfTSaJxDw6aKkxp45agDiEzN  : Total Received = 5908944864
+Passphrase       : 
+Private Key      : e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+ =====Made by mizogg.co.uk Donations 3M6L77jC3jNejsd5ZU1CVpUVngrhanb6cD =====
