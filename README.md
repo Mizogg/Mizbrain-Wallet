@@ -1,10 +1,11 @@
 # Mizbrain-Wallet
-
 Python brain wallet for Bitcoin.
 
-![image](https://user-images.githubusercontent.com/88630056/130362346-27433f97-e4aa-41c0-a945-cf04e21e6c8a.png)
+Python script that turns any input string to a legal Bitcoin private key and its address. includes ONLINE and OFFLINE Version.
 
-Python script that turns any input string to a legal Bitcoin private key and its address.
+Blockchain API check Total Received Ammount  from Bitcoin Address.
+
+![image](https://user-images.githubusercontent.com/88630056/130362346-27433f97-e4aa-41c0-a945-cf04e21e6c8a.png)
 
 found this on https://mingze-gao.com/posts/never-use-a-brain-wallet/ 
 
@@ -40,3 +41,11 @@ Private Key      : b09c765fa3dc6ad138a8d0da17cd94306fbc32acb3d67bc093936861ccc48
 # miz_brain_file.py
 
 Offline- Check Brain wallets offline from your database file.
+
+
+more information on Brain Wallets :
+http://brainwalletx.github.io/
+
+https://en.bitcoin.it/wiki/Brainwallet
+
+https://www.youtube.com/watch?v=foil0hzl4Pg
