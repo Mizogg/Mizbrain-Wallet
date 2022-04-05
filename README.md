@@ -1,6 +1,14 @@
 # Mizbrain-Wallet
 Python brain wallet for Bitcoin.
 
+New Version Brainy.py
+
+![image](https://user-images.githubusercontent.com/88630056/161821931-b2e8fc30-325f-4d1a-8ca7-07bb226deee9.png)
+
+(HINT EDIT line 102 -107 to change results and search)
+
+ passphrase = ' '.join(random.sample(mylist, random.randint(1,12)))
+ 
 Python script that turns any input string to a legal Bitcoin private key and its address. includes ONLINE and OFFLINE Version.
 
 Blockchain API check Total Received Ammount  from Bitcoin Address.
