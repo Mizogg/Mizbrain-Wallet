@@ -15,7 +15,7 @@ with open('numbers.txt', newline='', encoding='utf-8') as f:
         mynumbers.append(line.strip())
 
 def get_balance(address):
-    request = requests.get('http://178.254.29.184:443/balance?active=' + address, timeout=20)
+    request = requests.get('http://localhost:443/balance?active=' + address, timeout=20)
     request = request.json()
     jdumps = json.dumps(request)
     jloads = json.loads(jdumps)
