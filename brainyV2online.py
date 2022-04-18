@@ -1,7 +1,20 @@
-import requests, json, codecs, random, hashlib, ecdsa, sys
+import codecs, random, hashlib, ecdsa, sys
 from rich.console import Console
+from lxml import html
+import requests
 console = Console()
 console.clear()
+
+def xBal(address):
+    urlblock = "https://bitcoin.atomicwallet.io/address/" + address
+    respone_block = requests.get(urlblock)
+    byte_string = respone_block.content
+    source_code = html.fromstring(byte_string)
+    xpatch_txid = '/html/body/main/div/div[2]/div[1]/table/tbody/tr[4]/td[2]'
+    treetxid = source_code.xpath(xpatch_txid)
+    xVol = str(treetxid[0].text_content())
+    return xVol
+
 mylist = []
 
 with open('words.txt', newline='', encoding='utf-8') as f:
@@ -14,13 +27,6 @@ with open('numbers.txt', newline='', encoding='utf-8') as f:
     for line in f:
         mynumbers.append(line.strip())
 
-def get_balance(address):
-    request = requests.get('http://localhost:443/balance?active=' + address, timeout=20)
-    request = request.json()
-    jdumps = json.dumps(request)
-    jloads = json.loads(jdumps)
-    balance = jloads[address]['final_balance']
-    return balance
     
 class BrainWallet:
 
@@ -116,9 +122,10 @@ while True:
         passphrase= str(choice)
     wallet = BrainWallet()
     private_key, address = wallet.generate_address_from_passphrase(passphrase)
-    if get_balance(address) > 0:
+    bal = xBal(address)
+    if int(bal) > 0:
         console.print('[green]\nCongraz you have found Bitcoin Passphrase [/green]')
-        console.print('[green]Bitcoin Address  [/green]', address, 'Balance = ', get_balance(address))
+        console.print('[green]Bitcoin Address  [/green]', address, 'TX = ' + str(bal))
         console.print('[purple]Passphrase       [/purple]',passphrase)
         console.print('[purple]Private Key      [/purple]',private_key)
         f=open(u"winner.txt","a")
@@ -129,5 +136,5 @@ while True:
     else:
         console.print('[red]Passphrase       [/red] ', passphrase)
         console.print('[red]Private Key      [/red] ', private_key)
-        console.print('[red]Bitcoin Address  [/red] ', address, 'Balance = ', get_balance(address))
+        console.print('[red]Bitcoin Address  [/red] ', address, 'TX = ' + str(bal))
         console.print('[red] :ScanNumber:  [' + str(count) + '] [/red]')
