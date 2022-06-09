@@ -3,6 +3,10 @@
 
 🐍Python🐍 Brain wallet for Bitcoin.
 
+![image](https://user-images.githubusercontent.com/88630056/172948949-84519ce5-a3e9-4d81-a339-5bd242d51b11.png)
+
+![image](https://user-images.githubusercontent.com/88630056/172948967-8d353ce6-036a-46ce-97b5-552f42bb9187.png)
+
 New Version b52.py That checks for Compressed and UnCompressed Bitcoin Wallets using (https://github.com/iceland2k14/secp256k1)
 
 ![image](https://user-images.githubusercontent.com/88630056/166102955-6b6d7bfb-da14-4831-81a8-4eceee320975.png) ![image](https://user-images.githubusercontent.com/88630056/166102989-df8fb57f-43fc-4e03-81b9-ecb23de38d6b.png)
